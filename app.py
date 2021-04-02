@@ -6,7 +6,7 @@ app = Flask(__name__)
 def main():
     return "Welcome!"
 
-@app.route('getcity')
+@app.route('/getcity')
 def hello():
     return 'Mooresville'
 
